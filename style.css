@@ -45,6 +45,39 @@ p {
     margin-bottom: 1rem;
 }
 
+.review-card {
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    padding: 1rem;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.review-card .reviewer-picture {
+    float: left;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.review-card .reviewer, .review-card .verified {
+    margin: 0;
+    margin-left: 5rem;
+}
+
+.review-card .reviewer {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.review-card .verified {
+    color: hsl(333, 80%, 67%);
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+
 .attribution {
   font-size: 11px;
   text-align: center;

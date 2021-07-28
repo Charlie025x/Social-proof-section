@@ -1,5 +1,21 @@
 body {
-    margin: 0;
+    margin: 1rem;
+    font-family: 'Spartan', sans-serif;
+}
+
+.heading-card {
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.heading-card h1 {
+    font-weight: 700;
+}
+
+.heading-card p {
+    font-size: 15px;
 }
 
 .attribution {

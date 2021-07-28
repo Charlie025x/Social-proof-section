@@ -3,6 +3,10 @@ body {
     font-family: 'Spartan', sans-serif;
 }
 
+p {
+    font-size: 15px;
+}
+
 .heading-card {
     text-align: center;
     color: hsl(300, 43%, 22%);
@@ -14,8 +18,31 @@ body {
     font-weight: 700;
 }
 
-.heading-card p {
-    font-size: 15px;
+.star-rating-container {
+    margin-bottom: 3rem;
+}
+
+.star-rating-card {
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 1rem;
+}
+
+.star-rating-card p {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin: 0;
+}
+
+.stars5 {
+    background-image: url(./images/icon-star.svg);
+    background-repeat: space;
+    height: 1rem;
+    width: 6rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
 }
 
 .attribution {

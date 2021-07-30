@@ -122,20 +122,20 @@ body {
     flex-direction: column;
 }
 
-.star-rating-card:nth-child(2) {
-    align-self: center;
-}
-
-.star-rating-card:nth-child(3) {
-    align-self: flex-end;
-}
-
 .star-rating-card {
     width: 27rem;
     padding: 1rem 0;
     margin: .5rem;
     display: flex;
     justify-content: start;
+}
+
+.star-rating-card:nth-child(2) {
+    align-self: center;
+}
+
+.star-rating-card:nth-child(3) {
+    align-self: flex-end;
 }
 
 .stars5, .star-rating-container p {

@@ -91,13 +91,24 @@ p {
 html {
     height: 100vh;
 }
+
 body {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(10px, auto);
+    margin: 0;
     height: 100vh;
     box-sizing: border-box;
-    /* margin: 3rem 7rem; */
+    overflow: hidden;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(224px);/*224px is the largest cell height of the grid */
+    /* grid-template-rows: 1fr 1fr; */
+    height: 60vh;
+    box-sizing: border-box;
+    width: 1150px;
+    margin: auto;
+    margin-top: 6rem;
 }
 
 .heading-card {
@@ -105,13 +116,14 @@ body {
     grid-column-end: 2;
     text-align: start;
     margin: 0;
-    margin-right: 50%;
+    margin-right: 5rem;
     display: flex;
     flex-direction: column;
 }
 
 .heading-card h1 {
-    margin-top: 0;
+    margin: 0;
+    font-size: 3rem;
 }
 
 .star-rating-container {
@@ -152,11 +164,28 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 3rem;
+    height: 280px;
 }
 
 .review-card {
-    width: 340px
+    width: 21rem;
+    height: 12rem;
+    margin: 0;
 }
 
+.review-card:nth-child(2) {
+    align-self: center;
+}
 
+.review-card:nth-child(3) {
+    align-self: flex-end;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+  }
 }

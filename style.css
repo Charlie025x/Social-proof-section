@@ -107,7 +107,7 @@ body {
     margin: 0;
     margin-right: 50%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .heading-card h1 {
@@ -118,11 +118,32 @@ body {
     grid-column-start: 2;
     grid-column-end: 3;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.star-rating-card:nth-child(2) {
+    align-self: center;
+}
+
+.star-rating-card:nth-child(3) {
+    align-self: flex-end;
+}
+
+.star-rating-card {
+    width: 27rem;
+    padding: 1rem 0;
+    margin: .5rem;
+    display: flex;
+    justify-content: start;
 }
 
 .stars5, .star-rating-container p {
-    display:inline-block;
-    margin: 0;
+    display: inline-block;
+}
+
+.stars5 {
+    margin: 0 1.5rem;
 }
 
 .review-container {
